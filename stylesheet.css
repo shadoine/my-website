@@ -20,6 +20,7 @@ p {
       height: 200px; /* Adjust the size as needed */
       border-radius: 50%; /* Makes the image circular */
       overflow: hidden; /* Hides overflow content outside the circle */
+      margin-top: 50px;
     }
 
 #title {
@@ -64,6 +65,7 @@ section.about-me{
 #abtText {
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
