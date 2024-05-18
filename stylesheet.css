@@ -16,8 +16,8 @@ h3 {
 p {
 }
 #portrait {
-      width: 200px; /* Adjust the size as needed */
-      height: 200px; /* Adjust the size as needed */
+      width: 300px; /* Adjust the size as needed */
+      height: 300px; /* Adjust the size as needed */
       border-radius: 50%; /* Makes the image circular */
       overflow: hidden; /* Hides overflow content outside the circle */
       margin-top: 50px;
