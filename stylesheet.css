@@ -16,11 +16,11 @@ h3 {
 p {
 }
 #portrait {
-      width: 300px; /* Adjust the size as needed */
-      height: 300px; /* Adjust the size as needed */
-      border-radius: 50%; /* Makes the image circular */
-      overflow: hidden; /* Hides overflow content outside the circle */
-      margin-top: 50px;
+    width: 300px;
+    height: 300pxl;
+ overflow: hidden;
+ border-radius: 50%;
+margin-top: 50px;
     }
 
 #title {
@@ -52,7 +52,7 @@ p {
 
 .content {
   text-align: center;
-  color: white; /* Adjust text color as needed */
+  color: white;
 }
 section {
   height: 100vh;
@@ -70,7 +70,7 @@ section.about-me{
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    color: grey;
+    color: black;
 }
 .scroll-down {
   opacity: 1;
@@ -131,64 +131,18 @@ section.about-me{
     transform: translateY(-5px);
   }
 }
-.hero_area {
-    position: relative;
-    height: 100vh;
-    background-color: white;
-    padding-top: 50px;
+
+.email-icon {
+    display: inline-block;
+    margin-top: 20px;
 }
 
-.waves {
-    position: absolute;
-    width: 100%;
-    height: 15vh;
-    min-height: 100px;
-    max-height: 150px;
-    bottom: 0;
-    left: 0;
+.email-icon img {
+    width: 40px;
+    height: 30px;
+    transition: transform 0.2s;
 }
 
-.parallax > use {
-    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
-}
-
-.parallax > use:nth-child(1) {
-    animation-delay: -2s;
-    animation-duration: 7s;
-    fill: rgba(128, 128, 128, 0.7); /* Light grey with some opacity */
-}
-
-.parallax > use:nth-child(2) {
-    animation-delay: -3s;
-    animation-duration: 10s;
-    fill: rgba(105, 105, 105, 0.5); /* Dim grey with some opacity */
-}
-
-.parallax > use:nth-child(3) {
-    animation-delay: -4s;
-    animation-duration: 13s;
-    fill: rgba(169, 169, 169, 0.3); /* Dark grey with some opacity */
-}
-
-.parallax > use:nth-child(4) {
-    animation-delay: -5s;
-    animation-duration: 20s;
-    fill: rgba(192, 192, 192, 1); /* Silver */
-}
-
-@keyframes move-forever {
-    0% {
-        transform: translate3d(-90px, 0, 0);
-    }
-    100% {
-        transform: translate3d(85px, 0, 0);
-    }
-}
-
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-    .waves {
-        height: 40px;
-        min-height: 40px;
-    }
+.email-icon img:hover {
+    transform: scale(1.1);
 }
