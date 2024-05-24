@@ -11,8 +11,7 @@ Welcome to my personal web development portfolio. This site showcases my skills,
 
 ## About
 
-I am Vivien, a 22-year-old Business and Computer Science student with a passion for web development. I love creating innovative and extraordinary websites. This portfolio highlights my skills and projects, and offers a way to contact me for collaborations or services.
-
+I am Vivien, a 22-year-old Business and Computer Science student getting into webdevelopment.
 ## Features
 
 - **Responsive Design**: The site is fully responsive, ensuring a great experience on all devices.
