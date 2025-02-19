@@ -30,4 +30,4 @@ I am Vivien, a 22-year-old Business and Computer Science student getting into we
 
 For any inquiries, collaborations, or questions, please feel free to contact me:
 
-- **Email**: [vivienaregger@proton.me](mailto:vivienaregger@proton.me)
+- **Email**: 
